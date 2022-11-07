@@ -35,7 +35,6 @@ function createDivsday(days,month){
     for (let day=1; day <= days; day++){
         fullDate = `${month}-${day}-${year}`
         fullDateObj = new Date(fullDate)
-        console.log(fullDate)
         dayName =weekDays[fullDateObj.getDay()]
         const createElement = document.createElement("div");
         createElement.classList.add("day")
