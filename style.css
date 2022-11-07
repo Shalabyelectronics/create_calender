@@ -46,6 +46,16 @@ select{
     border: none;
 
 }
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.footer{
+    background-color: #cfece0;
+}
+.footer p{
+    margin: 1px;
+}
 @media only screen and (max-width:2000px){
     h1{
         font-size: 2rem;
